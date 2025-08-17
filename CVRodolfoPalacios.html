@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV Rodolfo Fernando Palacios – Desarrollador de Software</title>
+  <meta name="description" content="CV online de Desarrollador de Software: experiencia, proyectos, habilidades y contacto." />
+  <meta property="og:title" content="CV – Desarrollador de Software" />
+  <meta property="og:description" content="Experiencia, proyectos y contacto." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root{
+      --bg: #ffffff; --fg:#0f172a; --muted:#475569; --accent:#2563eb; --chip:#0ea5e9;
+      --card:#f8fafc; --border:#e2e8f0;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --fg:#e5e7eb; --muted:#94a3b8; --accent:#60a5fa; --chip:#22d3ee; --card:#0f172a; --border:#1f2937; }
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    .container{max-width:980px;margin:auto;padding:24px}
+    header{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-bottom:24px;border-bottom:1px solid var(--border);padding-bottom:16px}
+    .id{display:flex;gap:16px;align-items:center}
+    .avatar{width:150px;height:150px;border-radius:50%;background:var(--card);object-fit:cover;border:2px solid var(--border)}
+    h1{font-size:clamp(24px,3.2vw,36px);margin:0}
+    .role{color:var(--muted);margin-top:2px}
+    .links{display:flex;flex-wrap:wrap;gap:10px}
+    .btn{border:1px solid var(--border);padding:8px 12px;border-radius:12px;background:var(--card);text-decoration:none;color:var(--fg);line-height:1}
+    .btn:hover{border-color:var(--accent)}
+    .btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+    section{margin:26px 0}
+    h2{font-size:20px;margin:0 0 12px}
+    h3{margin:0 0 8px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media (max-width:800px){.grid.cols-2{grid-template-columns:1fr}}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:color-mix(in oklab, var(--chip) 18%, transparent);border:1px solid color-mix(in oklab, var(--chip) 45%, var(--border));padding:6px 10px;border-radius:999px;font-size:14px}
+    .item{display:grid;gap:4px}
+    .item .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+    .company{font-weight:600}
+    .when,.stack{color:var(--muted);font-size:14px}
+    ul{margin:0;padding-left:18px}
+    li{margin:2px 0}
+    footer{margin-top:26px;border-top:1px solid var(--border);padding-top:12px;color:var(--muted);font-size:14px}
+    .pill{display:inline-block;padding:2px 8px;border:1px solid var(--border);border-radius:999px;font-size:12px;margin-left:8px;color:var(--muted)}
+    .soft{border:none;height:1px;background:var(--border);opacity:.6;margin:12px 0}
+    /* Accesibilidad preferencia de movimiento */
+    @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+    /* Imprimible */
+    @page{margin:16mm}
+    @media print{ .btn,.links{display:none} body{font-size:12px} .container{padding:0} header{border:0;padding-bottom:0;margin-bottom:12px} }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rodolfo Fernando Palacios",
+    "jobTitle": "Desarrollador de Software",
+    "address": {"@type":"PostalAddress","addressLocality":"Río Cuarto","addressRegion":"Córdoba","addressCountry":"AR"},
+    "email": "mailto:rf.palaciosdev@gmail.com",
+    "url": "https://tusitio.dev",
+    "sameAs": ["https://github.com/rfpalaciosdev-hue","https://www.linkedin.com/in/rodolfo-palacios-607496293"]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="id">
+        <img class="avatar" src="Avatar.png" alt="Foto de perfil de Rodolfo Fernando Palacios" />
+        <div>
+          <h1>Palacios Rodolfo Fernando</h1>
+          <div class="role">Desarrollador Full Stack · Python · Django · React · Node.js</div>
+          <div class="when stack">Actualmente curso el último año de la carrera
+            <span class="pill">+ emprendimiento propio</span>
+          </div>
+        </div>
+      </div>
+      <address class="links" aria-label="Datos de contacto">
+        <a class="btn" href="mailto:rf.palaciosdev@gmail.com">rf.palaciosdev@gmail.com</a>
+        <a class="btn" href="tel:+543584370980">+54 358-4370980</a>
+        <a class="btn" href="https://github.com/rfpalaciosdev-hue" target="_blank" rel="me noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/rodolfo-palacios-607496293" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+      </address>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Perfil</h2>
+        <p>
+          Desarrollador de software con foco en aplicaciones web y APIs REST. Experiencia con Django, Flask, React, Node.js y modelado de bases de datos.
+          Con conocimientos de electrónica, electricidad y redes de comunicaciones.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="sobre-mi">
+        <h2 id="sobre-mi">Sobre mí</h2>
+        <p>
+          Actualmente curso el último año de la carrera de Desarrollo de Software. Me motiva resolver problemas reales, integrar hardware con software y optimizar procesos mediante automatización. Mi formación técnica en electrónica y redes complementa mi capacidad de abordar proyectos de forma integral.
+        </p>
+      </section>
+
+      <section>
+        <h2>Habilidades en desarrollo de software</h2>
+        <div class="chips" role="list" aria-label="Lista de habilidades">
+          <span class="chip" role="listitem">Python</span><span class="chip" role="listitem">Django</span><span class="chip" role="listitem">Flask</span>
+          <span class="chip" role="listitem">JavaScript</span><span class="chip" role="listitem">React</span><span class="chip" role="listitem">Node.js</span>
+          <span class="chip" role="listitem">PostgreSQL</span><span class="chip" role="listitem">MySQL</span><span class="chip" role="listitem">SQLite</span>
+          <span class="chip" role="listitem">Docker</span><span class="chip" role="listitem">Git</span><span class="chip" role="listitem">Linux</span>
+          <span class="chip" role="listitem">REST</span><span class="chip" role="listitem">JWT</span><span class="chip" role="listitem">CI/CD</span>
+        </div>
+      </section>
+
+      <section>
+        <div class="card">
+          <h2>Experiencia laboral</h2>
+          <hr class="soft">
+          <div class="card">
+            <div class="top">
+              <h3>Técnico de campo</h3>
+              <div class="when">Intercity Comunicaciones S.A. · Río Cuarto – Córdoba</div>
+              <div class="when"><time datetime="2008">2008</time></div>
+            </div>
+            <p>Responsabilidades:</p>
+            <ul>
+              <li>Mantenimiento en área de reclamos (ISP).</li>
+            </ul>
+          </div>
+          <hr class="soft">
+          <div class="card">
+            <div class="top">
+              <h3>Técnico de campo</h3>
+              <div class="when">Intercity S.R.L. · Río Cuarto – Córdoba</div>
+              <div class="when"><time datetime="2010">2010</time> – <time datetime="2014">2014</time></div>
+            </div>
+            <p>Responsabilidades:</p>
+            <ul>
+              <li>Fibra óptica.</li>
+              <li>Conectividad inalámbrica.</li>
+              <li>Cableado de red y armado de data center.</li>
+              <li>Montaje de servidores, control de accesos y CCTV.</li>
+              <li>Enlaces inalámbricos de media y larga distancia.</li>
+            </ul>
+          </div>
+          <hr class="soft">
+          <div class="card" style="margin-top:12px">
+            <div class="top">
+              <h3>Técnico en electrónica</h3>
+              <div class="when">Loghitec Computación · Río Cuarto – Córdoba</div>
+              <div class="when"><time datetime="2014">2014</time> – <time datetime="2015">2015</time></div>
+            </div>
+            <p>Responsabilidades:</p>
+            <ul>
+              <li>Reparación de circuitos en motherboards.</li>
+              <li>Reballing de procesadores y chips gráficos.</li>
+              <li>Reprogramación de BIOS.</li>
+            </ul>
+          </div>
+          <hr class="soft">
+          <div class="card" style="margin-top:12px">
+            <div class="top">
+              <h3>Propietario / Comerciante</h3>
+              <div class="when">LaVerdu · Río Cuarto – Córdoba</div>
+              <div class="when"><time datetime="2016">2016</time> – <time datetime="9999">Actualidad</time></div>
+            </div>
+            <p>Gestión integral del negocio, incluyendo:</p>
+            <ul>
+              <li>Compras y ventas.</li>
+              <li>Administración.</li>
+              <li>Atención al público.</li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <div class="card">
+          <h2>Prácticas destacadas en proyectos del ITEC</h2>
+          <div class="card">
+            <ul>
+              <li>Experiencia práctica en desarrollo full stack con Python/Django y React.</li>
+              <li>Experiencia práctica en desarrollo full stack con Node.js y React.</li>
+              <li>Implementación de autenticación segura con JWT y manejo de roles.</li>
+              <li>Despliegue de aplicaciones en entornos Docker.</li>
+              <li>Manejo de bases de datos relacionales (PostgreSQL, MySQL, SQLite).</li>
+              <li>Automatización de flujos de trabajo con CI/CD.</li>
+              <li>UX/UI.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid cols-2">
+        <div class="card">
+          <h2>Educación</h2>
+          <div class="card">
+            <div class="company">Desarrollador de Software</div>
+            <div class="top">
+              <div class="when">Instituto ITEC · Río Cuarto – Córdoba</div>
+              <div class="when">2023 – En curso (último año)</div>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <div class="company">Analista de Sistemas (no finalizado)</div>
+            <div class="top">
+              <div class="when">UNRC · Río Cuarto – Córdoba</div>
+              <div class="when">2009</div>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <div class="company">Técnico en mantenimiento (secundario completo)</div>
+            <div class="top">
+              <div class="when">IPEM 259 “Ambrosio Olmos” (Industrial) · Río Cuarto – Córdoba</div>
+              <div class="when">2001 – 2006</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Idiomas</h2>
+          <div class="card">
+            <ul>
+              <li>Español: nativo.</li>
+              <li>Inglés: básico (A2).</li>
+            </ul>
+          </div>
+          <br>
+          <h2>Extras</h2>
+          <div class="card">
+            <ul>
+              <li>Resido en <strong>Río Cuarto, Córdoba, Argentina</strong>.</li>
+              <li>Disponibilidad para trabajo <strong>remoto o presencial</strong>.</li>
+              <li>Movilidad propia (vehículo utilitario). <strong>Licencia de conducir categoría B2 vigente</strong>.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Última actualización: <span id="updated"></span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('updated').textContent = new Date().toLocaleDateString('es-AR');
+  </script>
+</body>
+</html>
+
